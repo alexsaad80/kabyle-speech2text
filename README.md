@@ -2,7 +2,13 @@
 
 
 
+#### Exploitation
 
+##### Installation des librairies python necessaires
+pip install -r requirements.txt
+
+##### Tester le modèle entrainé
+- 
 
 
 
