@@ -7,7 +7,7 @@
 This project provides a speech recognition model (STT - Speech To Text) for the Kabyle language.
 The pre-trained model `best_kabyle_asr_optim.pt` was trained on more than 700,000 audio sentences with their textual transcriptions, from Common-voice and Tatoeba.
 
-This model was obtained after xx Epochs. The script saves the best model version according to the 'Val Loss' value and after ten times without improvement of this value, the script will stop and keep the last best version.
+This model was obtained after 30 Epochs, with the best version saved in the Epoch 20 with 'Val Loss= 0.1513'. The script saves the best model version according to the 'Val Loss' value and after ten times without improvement of this value, the script will stop and keep the last best version.
 
 
 ## 📋 Table of Contents
