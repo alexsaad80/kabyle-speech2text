@@ -1,4 +1,4 @@
-## Kabyle Speech To Text model (torch)
+## Kabyle Speech To Text model (Pytorch)
 
 
 
