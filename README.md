@@ -19,7 +19,8 @@ pip install -r requirements.txt
 ##### Training a model with your own audio files
 
 1- Put your MP3 files in the "audios" folder
-2- Update the "transcription.csv" file with your own information, respecting this format: audio file name;audio file phrase
+2- Update the "transcription.csv" file with your own information, respecting this format:
+audio file name;audio file phrase
 
 audio_file;transcription
 
