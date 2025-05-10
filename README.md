@@ -61,6 +61,8 @@ To train the model with your own audio files:
 1. Place your MP3 files in the `audios/` folder
 
 2. Update the `transcription.csv` file with your information, following this format:
+
+   You can check the current "audios" folder and "transcription.csv" file for a sample
 ```
 audio_file_name;transcription
 common_voice_kab_21869653.mp3;Ssnent ad wtent apyanu
