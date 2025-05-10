@@ -1,1 +1,1 @@
-# Kabyle speech2text (torch model)
+# Kabyle Speech To Text model (torch)
