@@ -4,7 +4,11 @@
 [![PyTorch](https://img.shields.io/badge/Framework-PyTorch-orange)](https://pytorch.org/)
 [![Status](https://img.shields.io/badge/Status-Operational-green)](https://github.com/alexsaad80/kabyle-speech2text)
 
-This project provides a speech recognition model (STT - Speech To Text) for the Kabyle language, trained on more than 700,000 audio sentences with their textual transcriptions.
+This project provides a speech recognition model (STT - Speech To Text) for the Kabyle language.
+The pre-trained model `best_kabyle_asr_optim.pt` was trained on more than 700,000 audio sentences with their textual transcriptions, from Common-voice and Tatoeba.
+
+This model was obtained after xx Epochs. The script saves the best model version according to the 'Val Loss' value and after ten times without improvement of this value, the script will stop and keep the last best version.
+
 
 ## 📋 Table of Contents
 - [Overview](#overview)
@@ -96,10 +100,6 @@ nvcc --version
   - `BATCH_SIZE`
   - `num_worker`
   - `prefetch_factor`
-
-## 📈 Performance
-
-The pre-trained model `best_kabyle_asr_optim.pt` offers the best performance and has been optimized for Kabyle speech recognition.
 
 ---
 
