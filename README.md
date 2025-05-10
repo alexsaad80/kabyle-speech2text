@@ -79,6 +79,8 @@ common_voice_kab_21869656.mp3;Lliɣ ssedhuyeɣ igerdan
 python train_kab.py
 ```
 
+#### You can download the training audios and transcription file sources used for the training of this model [here](https://mega.nz/folder/MN4DnA6Z#E-QIZqdvqupdhOEbkMKm7w).
+
 ## ⚙️ Recommended CUDA Configuration
 
 For optimal performance, ensure your CUDA installation is compatible:
