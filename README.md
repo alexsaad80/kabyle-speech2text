@@ -48,7 +48,7 @@ pip install -r requirements.txt
 
 ## 🚀 Usage
 
-### Testing the Pre-trained Model
+### Local testing the Pre-trained Model
 
 1. Run the test script:
 ```bash
@@ -57,6 +57,8 @@ python kab_audio_model_test.py
 
 2. A Gradio interface will be generated - follow the link displayed in the console
 3. Upload your MP3 audio file via the interface to get the transcription
+
+#### You can test the model on Hugging Face <a href="https://huggingface.co/spaces/Aqvayli/Kabyle-speech2text" target="_blank">here</a>
 
 ### Custom Training
 
