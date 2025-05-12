@@ -108,5 +108,3 @@ nvcc --version
 ---
 
 *Project developed for the preservation and automatic processing of the Kabyle language.*
-
-[GitHub Repository](https://github.com/alexsaad80/kabyle-speech2text)
