@@ -93,7 +93,7 @@ iface = gr.Interface(
   inputs=gr.Audio(type="filepath", label="Uploader un fichier audio"),
   outputs=gr.Textbox(label="Transcription"),
   title="Reconnaissance Vocale (ASR) du Kabyle",
-  description="Uploader un fichier MP3/WAV pour obtenir sa transcription",
+  description="Upload an MP3/WAV file, or use your microphone to obtain its transcription in Kabyle",
   flagging_mode="never"
 )
 
